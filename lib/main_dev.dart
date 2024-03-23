@@ -8,9 +8,9 @@ init() {}
 
 Future<void> main() async {
   AppConfig.create(
-    appName: AppStringConstants.appName,
+    appName: AppStringConstants.appNameDev,
     baseUrl: "",
-    flavor: Flavor.prod,
+    flavor: Flavor.dev,
   );
 
   await runZonedGuarded(() async {
